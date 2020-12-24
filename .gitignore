@@ -40,3 +40,34 @@
 *.o
 *.sbr
 *.s
+Proteus_Lab1/ini/
+
+# Debugger files
+# define exception below if needed
+*.ini
+
+# Build files
+# define exception below if needed
+*.bat
+*._ia
+*.__i
+*._ii
+
+# Other files
+*.build_log.htm
+*.cdb
+*.dep
+*.ic
+*.lin
+*.lnp
+*.orc
+# define exception below if needed
+*.pack
+# define exception below if needed
+*.pdsc
+*.plg
+# define exception below if needed
+*.sct
+*.sfd
+*.sfr
+*.scvd
