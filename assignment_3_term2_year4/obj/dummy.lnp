@@ -1,0 +1,18 @@
+--cpu Cortex-M3
+".\obj\main.o"
+".\obj\system_stm32f10x.o"
+".\obj\startup_stm32f103x6.o"
+".\obj\stm32f10x_adc.o"
+".\obj\stm32f10x_dma.o"
+".\obj\stm32f10x_gpio.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\misc.o"
+".\obj\stm32f10x_tim.o"
+".\obj\motor_voltage.o"
+".\obj\adc.o"
+".\obj\motor_regulator.o"
+".\obj\motor_revert.o"
+--strict --scatter ".\obj\dummy.sct"
+--feedback=file_name --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\dummy.map" -o .\obj\dummy.axf

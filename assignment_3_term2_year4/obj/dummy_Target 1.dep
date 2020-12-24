@@ -1,0 +1,378 @@
+Dependencies for Project 'dummy', Target 'Target 1': (DO NOT MODIFY !)
+F (.\src\main\main.c)(0x5CB6DFA6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\main -I .\src -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (src\main\adc.h)(0x5CB4FBF5)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\project_config.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdbool.h)(0x57F64D08)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdlib.h)(0x57F64D08)
+I (src\main\motor_voltage.h)(0x5CB4FBE4)
+I (src\main\motor_regulator.h)(0x5CB4FBAF)
+I (src\main\motor_revert.h)(0x5CB64393)
+F (.\src\mcu_support_package\system_stm32f10x.c)(0x5CB06F84)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+F (.\src\mcu_support_package\arm\startup_stm32f103x6.s)(0x5CB06F84)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"--pd "__UVISION_VERSION SETA 523"--list .\lst\startup_stm32f103x6.lst --xref -o .\obj\startup_stm32f103x6.o --depend .\obj\startup_stm32f103x6.d)
+F (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)()
+F (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)()
+F (.\src\spl\src\stm32f10x_adc.c)(0x5CB06F84)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_adc.o --omf_browse .\obj\stm32f10x_adc.crf --depend .\obj\stm32f10x_adc.d)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+F (.\src\spl\src\stm32f10x_dma.c)(0x5CB06F84)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_dma.o --omf_browse .\obj\stm32f10x_dma.crf --depend .\obj\stm32f10x_dma.d)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+F (.\src\spl\src\stm32f10x_gpio.c)(0x5CB06F84)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+F (.\src\spl\src\stm32f10x_rcc.c)(0x5CB06F84)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+F (.\src\spl\inc\misc.h)(0x5CB06F84)()
+F (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)()
+F (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)()
+F (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)()
+F (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)()
+F (.\src\spl\src\misc.c)(0x5CB06F84)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\misc.o --omf_browse .\obj\misc.crf --depend .\obj\misc.d)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+F (.\src\spl\src\stm32f10x_tim.c)(0x5CB06F84)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\stm32f10x_tim.o --omf_browse .\obj\stm32f10x_tim.crf --depend .\obj\stm32f10x_tim.d)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+F (.\src\main\motor_voltage.c)(0x5CB4FA32)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\main -I .\src\spl\inc -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\motor_voltage.o --omf_browse .\obj\motor_voltage.crf --depend .\obj\motor_voltage.d)
+I (.\src\project_config.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdbool.h)(0x57F64D08)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdlib.h)(0x57F64D08)
+I (src\main\motor_voltage.h)(0x5CB4FBE4)
+F (.\src\main\adc.c)(0x5CB4FAFE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\main -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\adc.o --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+I (src\main\adc.h)(0x5CB4FBF5)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\src\project_config.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package/inc/stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdbool.h)(0x57F64D08)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdlib.h)(0x57F64D08)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\string.h)(0x57F64D08)
+F (.\src\main\motor_regulator.c)(0x5CB504EF)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\spl\inc -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\motor_regulator.o --omf_browse .\obj\motor_regulator.crf --depend .\obj\motor_regulator.d)
+I (src\main\motor_regulator.h)(0x5CB4FBAF)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdlib.h)(0x57F64D08)
+I (.\src\spl\inc\stm32f10x_gpio.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x.h)(0x5CB06F84)
+I (.\src\cmsis\core_cm3.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_compiler.h)(0x5CB06F84)
+I (.\src\cmsis\cmsis_armcc.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\system_stm32f10x.h)(0x5CB06F84)
+I (.\src\mcu_support_package\inc\stm32f10x_conf.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_adc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_bkp.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_can.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_cec.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_crc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dac.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dbgmcu.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_dma.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_exti.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_flash.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_fsmc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_i2c.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_iwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_pwr.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rcc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_rtc.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_sdio.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_spi.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_tim.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_usart.h)(0x5CB06F84)
+I (.\src\spl\inc\stm32f10x_wwdg.h)(0x5CB06F84)
+I (.\src\spl\inc\misc.h)(0x5CB06F84)
+F (.\src\main\motor_revert.c)(0x5CB644C7)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\src\cmsis -I .\src -I .\src\mcu_support_package\inc -I .\src\spl -I .\src\spl\inc --c99 --feedback=file_name-I"E:\Programs\Keil 5.23\ARM\RV31\INC"-I"E:\Programs\Keil 5.23\ARM\CMSIS\Include"-I"E:\Programs\Keil 5.23\ARM\Inc\ST\STM32F10x"-D__UVISION_VERSION="523" -DSTM32F103x6 -DUSE_FULL_ASSERT -DSTM32F10X_LD -DHSE_VALUE="8000000" -DUSE_STDPERIPH_DRIVER-o .\obj\motor_revert.o --omf_browse .\obj\motor_revert.crf --depend .\obj\motor_revert.d)
+I (src\main\adc.h)(0x5CB4FBF5)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (src\main\motor_revert.h)(0x5CB64393)
+I (src\main\motor_speed.h)(0x5CB4F44B)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\stdbool.h)(0x57F64D08)
+I (E:\Programs\Keil 5.23\ARM\ARMCC\include\math.h)(0x57F64D06)
